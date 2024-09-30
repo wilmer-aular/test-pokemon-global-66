@@ -1,0 +1,27 @@
+/* ./src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-error {
+    @apply w-screen flex flex-col justify-center items-center py-8
+}
+
+body {
+    background: #E8E8E8 !important;
+    font-family: "Lato", sans-serif;
+    min-height: 100vh;
+}
+
+.b-color{
+    background: #E8E8E8;
+}
+
+.heigth-page{
+    margin-bottom: 30px;
+}
+
+.pagin{
+    padding-bottom: 100px !important;
+}

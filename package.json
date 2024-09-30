@@ -1,0 +1,43 @@
+{
+  "name": "test-global",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^5.9.55",
+    "@types/axios": "^0.14.0",
+    "@types/axios-case-converter": "^0.4.0",
+    "axios": "^1.7.7",
+    "axios-case-converter": "^1.1.1",
+    "roboto-fontface": "*",
+    "vite": "^5.4.8",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.5",
+    "vuetify": "^3.7.2",
+    "vuex": "^4.0.2",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/webfontloader": "^1.0.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vue/vue3-jest": "^29.2.6",
+    "autoprefixer": "^10.4.20",
+    "jest": "^29.7.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "vue-tsc": "^2.0.29"
+  },
+  "type": "module"
+}
